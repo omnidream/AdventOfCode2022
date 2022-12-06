@@ -1,5 +1,5 @@
 ﻿
-string puzzleSearchPath = (@"C:\Users\gusta\source\repos\AdventOfCode2022\Day1\puzzleInput.txt");
+string puzzleSearchPath = (@"C:\Users\guskro\Source\Repos\AdventOfCode2022\Day2\puzzleInput.txt");
 var puzzleInput = File.ReadAllLines(puzzleSearchPath).ToList();
 
 Console.WriteLine("Svar del ett: " + PartOne(puzzleInput));
