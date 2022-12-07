@@ -4,8 +4,6 @@ using System.Text.RegularExpressions;
 
 internal class Program
 {
-    
-
     private static void Main(string[] args)
     {
         string puzzleSearchPath = @"C:\Users\gusta\source\repos\AdventOfCode2022\Day5\puzzleInput.txt";
@@ -67,9 +65,8 @@ internal class Program
             var answer = "";
 
             for (int i = 0; i < stacks.Count; i++)
-            {
                 answer = answer + stacks[i+1][0];
-            }
+            
             return answer;
         }
 
